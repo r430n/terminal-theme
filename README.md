@@ -1,7 +1,7 @@
 # terminal-theme
 theme simple in several lines for the terminal
 ----------------
-# running:
+# running: اجرا
 
 `cd $HOME`
 
@@ -16,3 +16,5 @@ theme simple in several lines for the terminal
 -----------------
 [ password: ___linuxroot___ ]
 ***~***
+
+
