@@ -1,0 +1,140 @@
+# terminal-theme
+#theme simple in several lines for the terminal
+# hey
+#------
+print()
+
+import os
+# install
+try:
+    import colorama
+except:
+    os.system("pip install colorama")
+try:
+    import datetime
+
+except:
+    os.system("pip install datetime")
+    
+    
+#----------
+
+
+
+#import --------------
+import os,time,datetime
+
+from colorama import Fore
+
+# colors------------
+
+red = "\033[31m"
+
+green = "\033[32m"
+
+blue = "\033[36m"
+
+pink = "\033[35m"
+
+yellow = "\033[93m"
+
+darkblue = "\033[34m"
+
+white = "\033[00m"
+#-------------
+#times----
+
+time_ = str(datetime.datetime.now())
+#--------------------
+print("\n"*5)
+#--
+time.sleep(3)
+
+print(Fore.WHITE+'')
+print()
+print('simple theme')
+print()
+name = input(F"{darkblue}enter {white}your name ⟩⟩ {green}")
+print()
+print()
+time.sleep(2)
+try:
+    os.system("clear")
+except:
+    os.system('cls')
+print()
+
+time.sleep(1)
+
+#themes = os.system("lolcat -8 them.py")
+
+theme = F"""{yellow}Terminal Started ; {pink}{time_} \n{blue}
+
+
+###############
+                      #################            #
+                   ######################         #
+                  #########################      #
+                ############################
+               ##############################
+               ###############################
+              ###############################
+              ##############################
+                              #    ########   #
+                 ##        ###        ####   ##
+                                      ###   ###
+                                    ####   ###
+               ####          ##########   ####
+               #######################   ####
+                 ####################   ####
+                  ##################  ####
+                    ############      ##
+                       ########        ###
+                      #########        #####
+                    ############      ######
+                   ########      #########
+                     #####       ########
+                       ###       #########
+                      ######    ############
+                     #######################
+                     #   #   ###  #   #   ##
+                     ########################
+                      ##     ##   ##     ##
+                      
+"""
+
+print()
+print(theme)
+time.sleep(1)
+print("\n"*5)
+
+password = input(f"{blue}[{blue}{red}@{name}{blue}-{blue}{green}𐌼y.Linux/~]  {pink}please enter a password to access the root to terminal >>> {white}")
+print()
+
+while password != "linuxroot":
+    print()
+    print(f"{red}error - password not found")
+    print()
+    password = input(f"{blue}[{blue}{red}@{name}{blue}-{blue}{green}𐌼y.Linux/~]  {pink}please enter a password to access the root to terminal >>> {white}")
+    print()
+time.sleep(1)
+os.system("clear")
+print()
+#print(themes)
+print(theme)
+print()
+# directory-------- termux !
+#ok = open("/data/data/com.termux/files/home")
+#-------------
+print()
+# while -----------
+while True:
+    print()
+    print(f'{blue}[time: {time_}]')
+    print()
+    enter = input(f"{blue}[{blue}{red}root{yellow}@{name}{blue}-{blue}{green}𐌼y.Linux/~] {darkblue}──╼ ❯❯❯ {white}")
+    print()
+    os.system(f"{enter}")
+    print()
+    
+#-------- ended ---------
