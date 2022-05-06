@@ -66,7 +66,6 @@ print()
 
 time.sleep(1)
 
-themes = os.system("lolcat -8 themr.py")
 
 theme = F"""{yellow}Terminal Started ; {pink}{time_} \n{blue}
 
@@ -79,7 +78,7 @@ theme = F"""{yellow}Terminal Started ; {pink}{time_} \n{blue}
                ##############################
                ###############################
               ###############################
-              ##############################
+     {darkblue}         ##############################
                               #    ########   #
                  ##        ###        ####   ##
                                       ###   ###
@@ -88,7 +87,7 @@ theme = F"""{yellow}Terminal Started ; {pink}{time_} \n{blue}
                #######################   ####
                  ####################   ####
                   ##################  ####
-                    ############      ##
+                    ############      ##{pink}
                        ########        ###
                       #########        #####
                     ############      ######
@@ -96,7 +95,7 @@ theme = F"""{yellow}Terminal Started ; {pink}{time_} \n{blue}
                      #####       ########
                        ###       #########
                       ######    ############
-                     #######################
+                  {green}   #######################
                      #   #   ###  #   #   ##
                      ########################
                       ##     ##   ##     ##
@@ -120,8 +119,7 @@ while password != "linuxroot":
 time.sleep(1)
 os.system("clear")
 print()
-print(themes)
-#print(theme)
+print(theme)
 print()
 # directory-------- termux !
 os.system("cd $HOME")
