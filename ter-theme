@@ -124,7 +124,7 @@ print(themes)
 #print(theme)
 print()
 # directory-------- termux !
-ok = open("/data/data/com.termux/home")
+os.system("cd $HOME")
 #-------------
 print()
 # while -----------
