@@ -14,5 +14,5 @@ theme simple in several lines for the terminal
 `python ter-theme`
 
 -----------------
-
+[ password: ___linuxroot___ ]
 ***~***
