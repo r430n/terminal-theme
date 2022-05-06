@@ -17,4 +17,4 @@ theme simple in several lines for the terminal
 [ password: ___linuxroot___ ]
 ***~***
 
-
+نکته: بهتره سورس رو کپی کنید یا انتقال بدید به صفحه اصلی یا خانه ترمینالتون تا به راحتی استفاده کنید.
