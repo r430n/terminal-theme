@@ -71,7 +71,7 @@ time.sleep(1)
 theme = F"""{yellow}Terminal Started ; {pink}{time_} \n{blue}
 
 
-###############
+                       ###############
                       #################            #
                    ######################         #
                   #########################      #
@@ -124,7 +124,7 @@ print()
 print(theme)
 print()
 # directory-------- termux !
-#ok = open("/data/data/com.termux/files/home")
+ok = open("/data/data/com.termux/files/home")
 #-------------
 print()
 # while -----------
